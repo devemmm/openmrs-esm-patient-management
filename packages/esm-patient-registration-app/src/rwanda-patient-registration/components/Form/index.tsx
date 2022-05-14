@@ -111,7 +111,7 @@ function RegistrationForm() {
       method: 'get',
     })
       .then((response) => {
-        alert('gennext team is still doing on this module...');
+        alert('gennext team is still doing on this module... please contact administrator');
         console.log(response);
       })
       .catch((error) => {
